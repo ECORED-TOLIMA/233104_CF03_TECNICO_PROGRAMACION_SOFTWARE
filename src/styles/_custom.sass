@@ -1,32 +1,615 @@
 .banner-principal-decorativo
-  &-1
-    animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 20%
-    right: 10%
   &-2
+    animation: engrane 4s linear infinite
+    position: absolute
+    top: 3%
+    right: 1%
+  &-1
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 62%
+    right: 70%
+
+.banner-principal__img
+  z-index: 1
+// Animación para giro
+@keyframes engrane
+  0%
+    transform: rotate(0deg)
+  100%
+    transform: rotate(360deg)
+
+@-webkit-keyframes rotation 
+  from 
+    -webkit-transform: rotate(0deg)  
+  to 
+    -webkit-transform: rotate(359deg)
 
 @keyframes float1
   0%
     transform: translateY(20px)
+
   100%
     transform: translateY(0px)
+
+@keyframes float2
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateX(0px)
+
+@keyframes scale
+  0%
+    transform: scale(1)
+
+  100%
+    transform: scale(1.2)
+
+.banner-principal
+  .container.tarjeta
+    background-image: url("../assets/curso/portada/fondo-banner-principal.png")
+    background-size: 100% 100% !important
+    background-position: center
+    min-height: 520px
+    @media (max-width: $bp-max-md)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-md.png") !important
+    @media (max-width: $bp-max-xs)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/imgbaner.png") !important
+
+.banner-interno__titulo__icono
+    background-color: #000
+    color: #000 !important
+
+.banner-interno__titulo h1, .banner-interno__titulo h2, .banner-interno__titulo h3, .banner-interno__titulo h4, .banner-interno__titulo h5, .banner-interno__titulo h6
+  color: #000000
+.barra-avance__boton--regresar span
+  color: #FFFFFF !important
+.lista-ol--cuadro__vineta
+  span
+    color: black !important
+//BLOQUE TEXTO G
+.bloque-texto-ggg-imagen.color-primario
+  background-color: #D5F4F8
+.bloque-texto-gg.color-primario
+  background-color: #D5F4F8
+.bloque-texto-gg__img 
+  width: 25%
+  position: absolute
+  top: 0
+  left: 0
+  bottom: 0
+  background-position: center
+  background-size: cover
+
+.bloque-texto-gg__img2
+  width: 35%
+  position: absolute
+  top: 0
+  left: 0
+  bottom: 0
+  background-position: center
+  background-size: cover
+
+.bloque-texto-gg
+  position: relative
+  display: flex
+  justify-content: flex-end
+
+.bloque-texto-gg__texto
+  position: relative
+  width: 75%
+.bloque-texto-gg__texto2
+  position: relative
+  width: 65%
   
-.banner-principal .tarjeta
-  background-position: left 50% !important
+.bloque-texto-gg--inverso
+  justify-content: flex-start
 
-.banner-principal__row .banner-principal__img
-  width: 400px !important  
+.bloque-texto-gg-imagen 
+  .bloque-texto-gg__img
+    width: 36%
+  
+  .bloque-texto-gg__texto
+    width: 60%
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
+.bloque-texto-gg
+  @media (max-width: $bp-max-md)
+    padding-top: 40% !important
+    &__img
+      width: 100% !important
+      height: 50%
+    &__texto
+      margin-top: 40px !important
+      width: 100% !important
+    &__img1
+      width: 100% !important
+      height: 50%
+    &__img2
+      width: 25% !important
+      height: 25%
+    &__texto1
+      margin-top: 40px !important
+      width: 100% !important
+    &__texto2
+      margin-top: 0px !important
+      width: 74% !important
+
+  @media (max-width: $bp-max-xs)
+    padding-top: 200px !important
+    &__img
+      height: 250px
+    &__img1
+      height: 250px
+    
+
+.bloque-texto-ggg
+  position: relative
+  display: flex
+  justify-content: flex-end
+
+.bloque-texto-ggg__texto
+  position: relative
+  width: 66%
+  
+
+.bloque-texto-gg--inverso 
+  .bloque-texto-gg__img,.bloque-texto-gg__img1
+    left: auto
+    right: 0
+.bloque-texto-gg__img1 
+  width: 50%
+  position: absolute
+  top: 0
+  left: 0
+  bottom: 0
+  background-position: center
+  background-size: cover
+.bloque-texto-gg__texto1
+  position: relative
+  width: 50%
+
+//fondos
+
+.bgf1
+  background-color: #C9E8F7
+.bgf2
+  background-color: #7DD3FF
+.bgf2-1
+  background-color: #7DD3FF
+  border-radius: 50px
+.bgf3
+  background-color: #19538D
+.bgf4
+  background-color: #5AF6EA
+.bgf5
+  background-color: #C0F6F2 
+.bgf5-1
+  border-radius: 50px
+.bgf6
+  background-color: #FFE2BC 
+.bgf2-6
+  background-color: #FFE2BC 
+  border-radius: 50px
+.bgf7
+  background-color: #FFEEBC 
+.bgf8
+  background-color:#F2E4EF
+.bgf9
+  background-color: #0d0d2b
+.bgf10
+  background-color: #ffffff // El fondo blanco nítido
+
+.bgf11
+  background-color: #68EAE0
+
+.cajon.color-primario
+  background-color: #C9E8F7
+
+.cajon.color-secundario
+  background-color:#C0F6F2
+
+.BG01
+  background-image: url("../assets/curso/temas/tema1/imgfondo1.svg")
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -2.7rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.BG02
+  background: linear-gradient(180deg, #fff, #E9F9FB, #D4F9FE, #fff)
+  background-image: url("../assets/curso/temas/tema2/imgfondo_2.png")
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.BG03
+  background: linear-gradient(180deg, #fff, #E9F9FB, #D4F9FE, #fff)
+  background-image: url("../assets/curso/temas/tema2/imgfondo_3.png")
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.BGDEGRA
+  background: linear-gradient(180deg, #fff, #E9F9FB, #D4F9FE, #fff)
+  background-image: url("../assets/curso/temas/tema1/imgfondodegra.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.BGDEGRA4
+  background: linear-gradient(180deg, #fff, #E5F2FF, #E5F2FF, #fff)
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.BG04
+  background-image: url("../assets/curso/temas/tema3/imgfondoslyf.png")
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3.5rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.titulo2
+  background-color:#FFE2BC
+  align-items: center
+  justify-content: flex-start
+  height: 31px
+  border-radius: 10px
+.titulo2 p 
+  margin-right: 23px
+
+.titulo
+  background-color:#FFE2BC
+  color: black
+  border-radius: 50px
+  height: 31px
+  display: inline-flex
+  align-items: center
+  justify-content: flex-start
+  @media (max-width: $bp-max-sm)
+    height: 43px
+  
+.titulo h5
+  margin-right: 23px
+  margin-bottom: 0px
+
+.titulo img
+  width: 45px
+  height: 45px
+  margin-right: 10px
+  margin-left: -10px
+
+.tarjeta--azul,
+  background-color: #C9E8F7 !important
+// Esta es la clase que pusimos en el .pug
+.slider-custom-bg
+  background-color: #ffffff // El fondo blanco nítido
+  border-radius: 20px // Bordes redondeados
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.08) // Sombra suave para dar profundidad
+  
+  // Opcional: Ajustar el color de las flechas para que combine con el fondo naranja
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    background-color: #AE0000 // Azul intenso
+    opacity: 1
+    border: none
+  
+  .slyder-a__bullets__item
+    background-color: #AFAFAF
+    &--active
+      background-color: #AE0000
+      border-color: #AE0000
+.slider-custom-bg .slyder-a__bullets__item
+  background-color: #AE0000
+.slider-custom-bg .slyder-a__bullets__item--active
+  background-color: #7DD3FF
+  border-color: #7DD3FF
+.slyder__btn
+  background-color: #AE0000
+  color: white
+
+.fondo-slyder
+  background-image: url("../assets/curso/temas/tema3/imgfondoslyf.png") !important
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+.bgfondo--slyderf
+  background-image: url("../assets/curso/temas/tema1/imgfondosf.png")
+  background-repeat: no-repeat
+  background-position: center
+.tarjeta--slyder
+  height: 100%
+  background-color: #ffff // Color de fondo suave
+  border-radius: 15px
+  transition: transform 0.3s ease, box-shadow 0.3s ease
+  border: 2px solid #ffff
+
+.BGINTRO01
+  background: #ffffff
+  background: linear-gradient(180deg,rgba(0, 255, 242, 1) 0%, rgba(0, 255, 242, 1) 50%, rgba(0, 255, 242, 1) 100%)
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+//// Tarjetas --------------------------------------
+.img80
+  width: 80px
+.crd
+  &.brd--rad
+    border-radius: 20px 
+  &.crd--grayGrad
+    padding: 2rem
+    height: 100%
+    background-image: url("../assets/curso/temas/tema5/imgfondotarj.png")
+    border-radius: 15px 
+    &:hover      
+      background-image: url("../assets/curso/temas/tema5/imgfondotarj_1.png")
+      h4, p
+      .bottomCircle
+        &::before
+          background-color: #085B55
+  &.crd--blue
+    background-color: #B1DBEA
+
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
+
+.bottomCircle
+
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 100px
+    height: 100px
+    background-color: #AE0000
+    border-radius: 999px
+  @media (max-width: 1000px)
+    img
+      max-width: 45%
+      margin: 86px
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5 
+    color: black
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #C0F6F2
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first, .crd--last
+  &::before 
+    background-color: #C9E8F7 !important
+
+.crd--first
+  &::before 
+    border-top-left-radius: 30px
+.crd--last
+  &::before 
+    border-bottom-left-radius: 30px
+
+
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+.tabla-a thead
+  background-color: #FFEEBC
+.tabla-a.color-acento-contenido thead
+  border-color: #FFC928
+
+.tarjeta--azul
+  background-color: #F2E4EF !important
+
+.acordion__activo
+  background-color: #C9E8F7 !important
+
+.fa-computer
+  color: #FFB758
+
+.lista-ol li, .lista-ol--cuadro li, .lista-ul li, .lista-ul--separador li, .lista-ul--color li 
+  display: flex
+
+.fa-chevron-right, .fa-chevron-left
+  color:#AE0000 !important
+
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title
+  background-color: #C0F6F2
+  
+.linea-tiempo-d__item__content__title
+  background-color: #F2E4EF
+.linea-tiempo-d__item__content__slot
+  background-color:#C0F6F2
+    
+.tarjeta--azul
+  background-color: #F2E4EF
+.acordion__activo
+  background-color: #C0F6F2 !important
+.tarjeta--gris.linea-tiempo-d__item__number
+  background-color: $color-acento-botones
   color: white !important
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color:#C0F6F2
+  color: black !important
+.linea-tiempo-d.color-acento-botones .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #C0F6F2
+  color: black !important
 
-.banner-interno__titulo__icono i
-  color: $color-primario
+.bgftabla
+  background-color: white
 
-figcaption
-  font-weight: normal
+.tabla-a table
+  min-width: 650px
+  background-color: white
+
+table th, table td
+  padding: 13px 20px
+
+.tabs-c__tab
+  background-color: #AE0000
+  color: white
+
+.tabs-c__tab--active
+  background-color: #fff
+  color: black
+.tabs-c
+  background-color: #C0F6F2
+  //- background-image: url("../assets/curso/temas/tema2/imgfondopesta.png")
+
+.acordion__accion__btn--a, .acordion__accion__btn--b
+  background-color: #AE0000
+  color: white
+  border: solid 1px #AE0000
+///////// T13 - Tarj1 --------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+      background-color: #68C6EA
+    .crd_hover_txt--body1
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+      background-color: #F2E4EF
+    .ubicar 
+      h5
+        color: black !important
+      .acordion__accion.acordion__accion__btn--b.h3.mb-0
+        display: none
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #9C2424
+    h5
+      color: white !important
+  
+  .crd_hover_txt--body1
+    background-color:#F2E4EF
+    h5
+      color: black !important
+    .ubicar 
+      width: 115%
+      h5
+        text-align: center
+        margin-top: -30px
+      .acordion__accion.acordion__accion__btn--b.h3.mb-0
+        margin-top: -30px 
+        margin-left: -30px
+
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+///////// Card hover --------------------------------------
+//- tarjeta de deslizamiento arriba abajo 
+.tarjetas-up
+  overflow: hidden
+  position: relative
+  &_card
+    transition: bottom .3s ease-in-out
+    position: absolute
+    border-radius: 5px
+    width: 100%
+    height: 100%
+    left: 0
+    bottom: -82%
+    @media (max-width: $bp-max-lg)
+      bottom: -85%
+    @media (max-width: $bp-max-md)
+      bottom: -87%
+    @media (max-width: $bp-max-sm)
+      bottom: -85%
+    i:last-child
+      display: none
+  &:hover
+    .tarjetas-up_card
+      bottom: -40%
+      @media (max-width: $bp-max-xl)
+        bottom: -20%
+      @media (max-width: $bp-max-lg)
+        bottom: -30%
+      @media (max-width: $bp-max-md)
+        bottom: -47%
+      @media (max-width: $bp-max-sm)
+        bottom: -38%
+      @media (max-width: $bp-max-xs)
+        bottom: -20%
+    i:first-child
+      display: none
+    i:last-child
+      display: block
+
+.ubicar 
+  width: 100%
+  h5
+    text-align: center
+    margin-top: 5px
+  .acordion__accion.acordion__accion__btn--b
+    margin-top: -72px 
+    margin-left: 75px
+    
+.tit-tarj
+  margin-top: 2px
+  height: 60px
+
+
+.tarjeta-avatar-b
+  padding-left: 7% !important
+  p
+    margin-left: 7%
+  
+.tarjeta-avatar-b__img
+  display: flex
+  justify-content: center
+  img
+    width: 60% !important
+    
