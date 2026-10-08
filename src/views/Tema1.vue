@@ -573,7 +573,7 @@
           .tarjeta.tarjeta--slyder.p-4
             .row.justify-content-center.mb-3
               .col-8
-                img(src="@/assets/curso/temas/tema1/img42.svg", alt="alt").img100.m-auto
+                img(src="@/assets/curso/temas/tema1/img42_.svg", alt="alt").img100.m-auto
             p.text-center.mb-0 Bases de datos orientadas a grafos.
     p Ejemplos de bases de datos NoSQL:
     .tarjeta--container.row.mb-4

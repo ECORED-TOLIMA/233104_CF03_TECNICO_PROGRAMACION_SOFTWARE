@@ -26,7 +26,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-3.col-8.mb-4.mb-lg-0
         figure
-          img(src='@/assets/curso/temas/tema5/img2.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema5/img2.png' alt='AvatarTop')
       .col-lg-9
         .bgf5.p-4.mb-2
             p Entre las principales funciones de un sistema gestor de bases de datos se encuentran:
