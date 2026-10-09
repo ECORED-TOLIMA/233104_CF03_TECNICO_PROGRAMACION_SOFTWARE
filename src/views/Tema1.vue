@@ -98,7 +98,7 @@
           .row(numero="1" titulo="Estructuración de datos")
             p Organizan la información de manera lógica y ordenada.
           .row(numero="2" titulo="Persistencia")
-            p Los datos permanecen almacenados incluso después de finalizar los procesos o apagar los sistemas
+            p Los datos permanecen almacenados incluso después de finalizar los procesos o apagar los sistemas.
           .row(numero="3" titulo="Integridad")
             p Aseguran que la información sea válida, coherente y consistente.
           .row(numero="4" titulo="Seguridad")
@@ -166,7 +166,7 @@
         .row.justify-content-center.mb-3
           .col-5
             img(src='@/assets/curso/temas/tema1/img20.svg' alt='AvatarTop')
-        h5.text-center Procesamiento de Big Data
+        h5.text-center Procesamiento de <em>Big Data</em>
         p.text-center Facilita el análisis de grandes cantidades de datos generados por múltiples fuentes.
       .tarjeta.bgfondo--slyderf.p-4
         .row.justify-content-center.mb-3
@@ -265,6 +265,7 @@
                     i.fas.fa-computer(style="color: #FFB758;")
                     p.mb-0.text-white Garantizan consistencia e integridad de la información.
             .col-lg-7
+              p La siguiente es una ejemplificación de estos datos:
               .row.justify-content-center.align-items-center
                 .col-lg-12
                   .titulo-sexto.color-acento-contenido
@@ -283,15 +284,15 @@
                             th Edad
                         tbody
                           tr
-                            td 101
-                            td Laura Gómez
-                            td Bogotá
-                            td 28
+                            td 101.
+                            td Laura Gómez.
+                            td Bogotá.
+                            td 28.
                           tr(style="background-color: #F3F9FF;")
-                            td 102
-                            td Andrés Ruiz
-                            td Medellín
-                            td 35
+                            td 102.
+                            td Andrés Ruiz.
+                            td Medellín.
+                            td 35.
               p.mb-0 En este ejemplo, la información se encuentra organizada en columnas específicas y cada registro mantiene la misma estructura.
       .row(titulo="Datos semiestructurados")
         .col-lg    
@@ -346,7 +347,7 @@
           .row.justify-content-center.align-items-center.mb-4
             .col-lg-6
               .tarjeta.bgf3.p-4
-                p.text-white Ejemplos de datos desestructurados:
+                p.text-white Características de los datos desestructurados:
                 ul.lista-ul
                   li
                     i.fas.fa-computer(style="color: #FFB758;")
@@ -362,7 +363,7 @@
                     p.mb-0.text-white Generan grandes volúmenes de información.
                   li
                     i.fas.fa-computer(style="color: #FFB758;")
-                    p.mb-0.text-white Son frecuentes en entornos de Big Data y analítica de datos.
+                    p.mb-0.text-white Son frecuentes en entornos de <em>Big Data</em> y analítica de datos.
             .col-lg-6
               .titulo2.p-1.mb-3
                 p.mb-0 Ejemplos de datos desestructurados:
@@ -390,7 +391,7 @@
                     i.lista-ul__vineta
                     | Archivos PDF o Word sin estructura uniforme.
           p.mb-0 Por ejemplo, un video publicado en una plataforma digital contiene información visual, auditiva y textual que no puede organizarse fácilmente en tablas tradicionales.
-    p.mb-4 Con el fin de identificar las principales diferencias entre los modelos de datos estructurados, semiestructurados y desestructurados, a continuación, se presenta una comparación relacionada con su organización, ejemplos y tecnologías utilizadas para su almacenamiento y procesamiento.                    
+    p.mb-4 Con el fin de identificar las principales diferencias entre los modelos de datos estructurados, semiestructurados y desestructurados, a continuación, se presenta una comparación relacionada con su organización, ejemplos y tecnologías utilizadas para su almacenamiento y procesamiento:
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-12
         .titulo-sexto.color-acento-contenido
@@ -422,7 +423,7 @@
                   td Desestructurado.
                   td Sin estructura definida.
                   td Videos e imágenes.
-                  td Big Data y almacenamiento distribuido.
+                  td <em>Big Data</em> y almacenamiento distribuido.
     p.mb-0 La identificación de estos modelos de datos permite seleccionar las tecnologías y herramientas más adecuadas para almacenar, administrar y procesar información según las necesidades de cada sistema de #[i software].
     Separador
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
@@ -488,6 +489,7 @@
                     p.mb-0.text-white Microsoft SQL Server.
     .row.justify-content-center.align-items-center.mb-3
       .col-12.col-lg-10
+        p La siguiente es una ejemplificación de estos datos:
         .titulo-sexto.color-acento-contenido
           h5 Tabla 3.
           span Ejemplo de estructura relacional
@@ -503,13 +505,13 @@
                   th Ciudad
               tbody
                 tr(style="background-color: #F3F9FF;")
-                  td 101
-                  td Laura Gómez
-                  td Bogotá
+                  td 101.
+                  td Laura Gómez.
+                  td Bogotá.
                 tr  
-                  td 102
-                  td Andrés Ruiz
-                  td Medellín
+                  td 102.
+                  td Andrés Ruiz.
+                  td Medellín.
     .row.justify-content-center.align-items-center.mb-3
       .col-12.col-lg-10
         p En este ejemplo, los datos se organizan de manera estructurada en tablas con atributos definidos.
@@ -549,7 +551,7 @@
             .row.justify-content-center.mb-3
               .col-8
                 img(src="@/assets/curso/temas/tema1/img38.svg", alt="alt").img100.m-auto
-            p.text-center.mb-0 Son utilizadas en aplicaciones #[i web], redes sociales y Big Data.
+            p.text-center.mb-0 Son utilizadas en aplicaciones #[i web], redes sociales y <em>Big Data</em>.
           .tarjeta.tarjeta--slyder.p-4
             .row.justify-content-center.mb-3
               .col-8
@@ -700,7 +702,7 @@
                   li
                     i.lista-ul__vineta(style="color: #FFF;")
                     p.mb-0.text-white NuoDB.
-    p Con el propósito de identificar las principales diferencias entre las bases de datos relacionales, NoSQL y NewSQL, a continuación, se presenta una comparación relacionada con su estructura, escalabilidad, manejo de datos y aplicaciones más frecuentes.
+    p Con el propósito de identificar las principales diferencias entre las bases de datos relacionales, NoSQL y NewSQL, a continuación, se presenta una comparación relacionada con su estructura, escalabilidad, manejo de datos y aplicaciones más frecuentes:
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-12
         .titulo-sexto.color-acento-contenido
@@ -746,7 +748,7 @@
                 tr
                   td Uso frecuente.
                   td Sistemas empresariales.
-                  td Big Data y aplicaciones #[i web].
+                  td <em>Big Data</em> y aplicaciones #[i web].
                   td Sistemas distribuidos modernos.
     p.mb-0 La selección de un modelo de base de datos depende de las necesidades del sistema, el tipo de información administrada y los requerimientos de disponibilidad, escalabilidad y rendimiento de las aplicaciones de #[i software].
 </template>

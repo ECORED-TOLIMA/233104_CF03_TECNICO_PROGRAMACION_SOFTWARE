@@ -81,16 +81,16 @@
                   th Función
               tbody
                 tr(style="background-color: #F3F9FF;")
-                  td CREATE
+                  td CREATE.
                   td Permite crear bases de datos, tablas u otros objetos.
                 tr
-                  td ALTER
+                  td ALTER.
                   td Permite modificar la estructura de una tabla existente.
                 tr(style="background-color: #F3F9FF;")
-                  td DROP
+                  td DROP.
                   td Permite eliminar objetos de la base de datos.
                 tr
-                  td TRUNCATE
+                  td TRUNCATE.
                   td Elimina todos los registros de una tabla sin borrar su estructura.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-5
@@ -167,16 +167,16 @@
                   th Función
               tbody
                 tr(style="background-color: #F3F9FF;")
-                  td INSERT
+                  td INSERT.
                   td Permite agregar nuevos registros a una tabla.
                 tr
-                  td SELECT
+                  td SELECT.
                   td Permite consultar información almacenada.
                 tr(style="background-color: #F3F9FF;")
-                  td UPDATE
+                  td UPDATE.
                   td Permite modificar datos existentes.
                 tr
-                  td DELETE
+                  td DELETE.
                   td Permite eliminar registros de una tabla.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-5

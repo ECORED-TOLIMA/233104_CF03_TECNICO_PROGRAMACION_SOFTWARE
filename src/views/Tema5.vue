@@ -64,7 +64,7 @@
           .bloque-texto-gg__img(
           :style="{'background-image':`url(${require('@/assets/curso/temas/tema5/img3.png')})`}"
           )
-    p A continuación, se presenta una comparación general de estos gestores y sus características principales.
+    p A continuación, se presenta una comparación general de estos gestores y sus características principales:
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-12
         .titulo-sexto.color-acento-contenido
@@ -82,27 +82,27 @@
                   th Característica principal
               tbody
                 tr(style="background-color: #F3F9FF;")
-                  td MySQL
+                  td MySQL.
                   td Relacional.
                   td Amplio uso en aplicaciones web y facilidad de administración.
                 tr
-                  td Oracle
+                  td Oracle.
                   td Relacional.
                   td Alta capacidad para entornos empresariales y grandes volúmenes de datos.
                 tr(style="background-color: #F3F9FF;")
-                  td PostgreSQL
+                  td PostgreSQL.
                   td Relacional.
                   td Sistema robusto de código abierto con alta compatibilidad con estándares SQL.
                 tr
-                  td MongoDB
+                  td MongoDB.
                   td NoSQL (documentos).
                   td Almacena información en documentos tipo JSON.
                 tr(style="background-color: #F3F9FF;")
-                  td Cassandra
+                  td Cassandra.
                   td NoSQL (columnas).
                   td Diseñado para manejar grandes volúmenes de datos distribuidos.
                 tr
-                  td Neo4j
+                  td Neo4j.
                   td NoSQL (grafos).
                   td Especializado en el manejo de relaciones complejas entre datos.
     p Esta clasificación permite comprender que los sistemas gestores de bases de datos se adaptan a diferentes necesidades tecnológicas, dependiendo del tipo de información que se requiera almacenar y procesar.
@@ -150,7 +150,7 @@
               .col-8
                 img(src="@/assets/curso/temas/tema5/img10.svg", alt="alt").img100.m-auto
             p.text-center.mb-0 Integración con diferentes sistemas gestores de bases de datos.
-    p.mb-4 Existen diversas herramientas utilizadas en el diseño de bases de datos, cada una con características y funcionalidades específicas.
+    p.mb-4 Existen diversas herramientas utilizadas en el diseño de bases de datos, cada una con características y funcionalidades específicas:
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-12
         .titulo-sexto.color-acento-contenido
@@ -167,19 +167,19 @@
                   th Característica principal
               tbody
                 tr(style="background-color: #F3F9FF;")
-                  td Oracle Data Modeler
+                  td Oracle Data Modeler.
                   td Permite diseñar modelos conceptuales, lógicos y físicos en entornos basados en Oracle.
                 tr
-                  td MySQL Workbench
+                  td MySQL Workbench.
                   td Facilita el modelado visual y la administración de bases de datos MySQL.
                 tr(style="background-color: #F3F9FF;")
-                  td PowerDesigner
+                  td PowerDesigner.
                   td Herramienta empresarial utilizada para modelado avanzado de datos.
                 tr
-                  td Visual Paradigm
+                  td Visual Paradigm.
                   td Permite modelar sistemas utilizando diferentes tipos de diagramas, incluido el modelo ER.
                 tr(style="background-color: #F3F9FF;")
-                  td AWS NoSQL Workbench
+                  td AWS NoSQL Workbench.
                   td Herramienta para diseñar y visualizar bases de datos NoSQL en entornos de AWS.
     p.mb-0 Estas herramientas permiten planificar y estructurar adecuadamente las bases de datos, facilitando su implementación, mantenimiento y evolución dentro de los sistemas de información.
 </template>

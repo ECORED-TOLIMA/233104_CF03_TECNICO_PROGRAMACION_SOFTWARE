@@ -283,7 +283,7 @@
       .bloque-texto-gg__img(
       :style="{'background-image':`url(${require('@/assets/curso/temas/tema2/img23.png')})`}"
       )
-    p Para comprender mejor este proceso, a continuación, se presenta un ejemplo sencillo de cómo una entidad del modelo Entidad-Relación puede representarse en el diseño lógico mediante una tabla.
+    p Para comprender mejor este proceso, a continuación, se presenta un ejemplo sencillo de cómo una entidad del modelo Entidad-Relación puede representarse en el diseño lógico mediante una tabla:
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-12
         .titulo-sexto.color-acento-contenido
@@ -332,9 +332,9 @@
         p Este proceso permite pasar de una representación conceptual del sistema a una estructura lógica preparada para su implementación en una base de datos.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
-        .tarjeta.bgf5.p-4
-            .row.justify-content-center.align-items-center
-              .col-lg-8.order-2.order-lg-1
+        .tarjeta.bgf5-2.overflow-hidden
+            .row.justify-content-center.align-items-stretch
+              .col-lg-8.order-2.order-lg-1.p-lg-5
                 p.mb-2 #[b Ejemplo de transformación:] supóngase un sistema sencillo de biblioteca donde se identifican las siguientes entidades en el modelo conceptual:
                 ol.lista-ol--cuadro.mb-2
                   li
@@ -357,10 +357,10 @@
                   li
                   i.fas.fa-computer(style="color: #FFB758;")
                   |  Préstamo: id_prestamo, fecha_prestamo.
-              .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
-                figure
-                  img(src='@/assets/curso/temas/tema2/img25.png', alt='Texto que describa la imagen')
-    p Durante la transformación al modelo lógico, estas entidades se convierten en tablas dentro de la base de datos.
+              .col-lg-4.order-1.order-lg-2.px-0
+                figure.h-100.m-0
+                  img.h-100(src='@/assets/curso/temas/tema2/img25.png', alt='Texto que describa la imagen')
+    p Durante la transformación al modelo lógico, estas entidades se convierten en tablas dentro de la base de datos:
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-12
         .titulo-sexto.color-acento-contenido
@@ -463,7 +463,7 @@
                   h5 Estructura de almacenamiento
             p.mb-0 Organizacion fisica de los archivos o bloques donde se guardara la información.
     p El diseño físico también busca optimizar el desempeño del sistema, permitiendo que las consultas se ejecuten de forma rápida y eficiente, especialmente cuando la base de datos maneja grandes volúmenes de información.
-    p A continuación, se presenta un ejemplo sencillo de cómo se define la estructura física de una tabla dentro de una base de datos.
+    p A continuación, se presenta un ejemplo sencillo de cómo se define la estructura física de una tabla dentro de una base de datos:
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-12
         .titulo-sexto.color-acento-contenido
@@ -481,20 +481,20 @@
                   th Descripción
               tbody
                 tr(style="background-color: #F3F9FF;")
-                  td id_usuario
-                  td INT
-                  td Identificador único del usuario.
+                  td id_usuario.
+                  td INT.
+                  td Identificador único del usuario..
                 tr      
-                  td nombre
-                  td VARCHAR(100)
+                  td nombre.
+                  td VARCHAR(100).
                   td Nombre del usuario.
                 tr(style="background-color: #F3F9FF;")
-                  td correo
-                  td VARCHAR(100)
+                  td correo.
+                  td VARCHAR(100).
                   td Correo electrónico del usuario.
                 tr
-                  td fecha_registro
-                  td DATE
+                  td fecha_registro.
+                  td DATE.
                   td Fecha en que el usuario se registró.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
@@ -575,7 +575,7 @@
                 tr(style="background-color: #F3F9FF;")
                   th id_usuario, nombre_usuario, libro, autor_libro.
                   td Un mismo usuario puede tener varios libros, lo que genera repetición de datos.
-    p.mb-4 Después de aplicar la normalización, la información puede organizarse de la siguiente manera:
+    p.mb-4 Después de aplicar la normalización, la información puede organizarse de la siguiente manera, mediante las tablas Usuario, Libro y Préstamo:
     .row.justify-content-center.align-items-center.mb-3
       .col-12.col-lg-10
         .titulo-sexto.color-acento-contenido

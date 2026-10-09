@@ -426,7 +426,7 @@ export default {
         },
         {
           nombre: 'Jorge Eduardo Rueda Peña',
-          cargo: 'Experto temático',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],

@@ -60,7 +60,7 @@
         .p-4.bgf2
           h5 Llave foránea (Foreign Key - FK)
           p Es un atributo que establece una relación entre dos tablas. Este campo hace referencia a la llave primaria de otra tabla, permitiendo conectar la información almacenada en diferentes entidades. Por ejemplo, en una tabla llamada #[b Prestamo], el campo id_usuario puede funcionar como llave foránea que hace referencia al id_usuario de la tabla Usuario.
-    p El uso de estas llaves permite mantener la relación entre las tablas y facilita la consulta, actualización y organización de la información dentro de una base de datos relacional. Para comprender mejor cómo funcionan las llaves primarias y foráneas dentro de un modelo relacional, a continuación, se presenta un ejemplo sencillo.
+    p El uso de estas llaves permite mantener la relación entre las tablas y facilita la consulta, actualización y organización de la información dentro de una base de datos relacional. Para comprender mejor cómo funcionan las llaves primarias y foráneas dentro de un modelo relacional, a continuación, se presenta un ejemplo sencillo:
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-12
         .titulo-sexto.color-acento-contenido
@@ -79,20 +79,20 @@
                   th Llave foránea
               tbody
                 tr(style="background-color: #F3F9FF;")
-                  th Usuario
+                  th Usuario.
                   td id_usuario, nombre, correo.
-                  td id_usuario (PK)
-                  td —
+                  td id_usuario (PK).
+                  td —.
                 tr     
-                  th Libro
-                  td id_libro, titulo, autor
-                  td id_libro (PK)
-                  td —
+                  th Libro.
+                  td id_libro, titulo, autor.
+                  td id_libro (PK).
+                  td —.
                 tr(style="background-color: #F3F9FF;")
-                  th Prestamo
-                  td id_prestamo, fecha_prestamo, id_usuario, id_libro
-                  td id_prestamo (PK)
-                  td id_usuario (FK), id_libro (FK)
+                  th Prestamo.
+                  td id_prestamo, fecha_prestamo, id_usuario, id_libro.
+                  td id_prestamo (PK).
+                  td id_usuario (FK), id_libro (FK).
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .row.align-items-center.mb-4.bgf5
@@ -139,7 +139,7 @@
     .row.justify-content-center.BG04.p-5
       .col-lg-4.d-none.d-lg-block
         figure(data-aos="zoom-in")
-          img(src="@/assets/curso/temas/tema3/img12.png", alt="alt").img400.m-auto
+          img(src="@/assets/curso/temas/tema3/img12.png", alt="alt").img370.m-auto
       .col-lg-8
         SlyderF.p-4(columnas="col-lg-6 col-xl-6")
           .tarjeta.tarjeta--slyder.p-4
@@ -147,31 +147,31 @@
               .col-5
                 img(src="@/assets/curso/temas/tema3/img13.svg", alt="alt").img100.m-auto
             h5.text-center #[b NOT NULL]
-            p.text-center.mb-0 Establece que un atributo no puede quedar vacío, por lo que siempre debe contener un valor.
+            p.mb-0 Establece que un atributo no puede quedar vacío, por lo que siempre debe contener un valor.
           .tarjeta.tarjeta--slyder.p-4
             .row.justify-content-center.mb-3
               .col-5
                 img(src="@/assets/curso/temas/tema3/img14.svg", alt="alt").img100.m-auto
             h5.text-center #[b UNIQUE]
-            p.text-center.mb-0 Garantiza que los valores de una columna no se repitan dentro de la tabla.
+            p.mb-0 Garantiza que los valores de una columna no se repitan dentro de la tabla.
           .tarjeta.tarjeta--slyder.p-4
             .row.justify-content-center.mb-3
               .col-5
                 img(src="@/assets/curso/temas/tema3/img15.svg", alt="alt").img100.m-auto
             h5.text-center #[b PRIMARY KEY (PK)]
-            p.text-center.mb-0 Identifica de manera única cada registro de una tabla y no permite valores nulos ni duplicados.
+            p.mb-0 Identifica de manera única cada registro de una tabla y no permite valores nulos ni duplicados.
           .tarjeta.tarjeta--slyder.p-4
             .row.justify-content-center.mb-3
               .col-5
                 img(src="@/assets/curso/temas/tema3/img16.svg", alt="alt").img100.m-auto
             h5.text-center #[b FOREIGN KEY (FK)]
-            p.text-center.mb-0 Asegura la relación entre tablas al exigir que los valores correspondan a registros existentes en otra tabla.
+            p.mb-0 Asegura la relación entre tablas al exigir que los valores correspondan a registros existentes en otra tabla.
           .tarjeta.tarjeta--slyder.p-4
             .row.justify-content-center.mb-3
               .col-5
                 img(src="@/assets/curso/temas/tema3/img16.svg", alt="alt").img100.m-auto
             h5.text-center #[b CHECK]
-            p.text-center.mb-0 Permite definir una condición que los valores deben cumplir para poder almacenarse en la base de datos.
+            p.mb-0 Permite definir una condición que los valores deben cumplir para poder almacenarse en la base de datos.
     p.mb-0 La aplicación de estas restricciones fortalece la calidad de la información y facilita la administración de los datos dentro de los sistemas de información. Además, permite mantener la coherencia entre las diferentes tablas y garantizar que los registros cumplan con las reglas definidas en el diseño de la base de datos.          
 </template>
 
