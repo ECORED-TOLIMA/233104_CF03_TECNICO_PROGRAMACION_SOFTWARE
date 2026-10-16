@@ -135,8 +135,8 @@
     .p-4.bgf1.mb-4
       p.mb-0 En las bases de datos relacionales, las restricciones son reglas que se establecen para controlar los valores que pueden almacenarse en las tablas. Estas reglas permiten garantizar que la información registrada cumpla determinadas condiciones y que los datos mantengan coherencia dentro del sistema.
     p Las restricciones contribuyen a mantener la consistencia de los datos, es decir, aseguran que la información almacenada sea válida, completa y acorde con las reglas definidas para la base de datos. De esta manera, se evitan errores como registros incompletos, duplicados o valores que no corresponden con la estructura del sistema.
-    p.mb-0 Entre las restricciones más comunes se encuentran las siguientes:
-    .row.justify-content-center.BG04.p-5
+    p.mb-4 Entre las restricciones más comunes se encuentran las siguientes:
+    .row.justify-content-center.BG04.align-items-center.mb-4
       .col-lg-4.d-none.d-lg-block
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/temas/tema3/img12.png", alt="alt").img370.m-auto

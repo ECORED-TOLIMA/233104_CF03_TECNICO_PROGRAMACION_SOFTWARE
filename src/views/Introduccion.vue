@@ -27,8 +27,7 @@
       .col-lg-12
         figure
           .video
-            iframe(width="1401" height="788" src="https://www.youtube.com/embed/TXKpLBAX8ms" title="Modelado y gestión de bases de datos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-           
+            iframe(width="1401" height="788" src="https://www.youtube.com/embed/d1QddYFWUnI?si=Qa6agxl3oN2L0Ex7" title="Modelado y gestión de bases de datos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
 </template>
 
 <script>
