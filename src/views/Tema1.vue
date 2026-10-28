@@ -437,7 +437,7 @@
         p Cada uno de estos enfoques presenta características particulares que permiten su implementación en aplicaciones empresariales, sistemas distribuidos, plataformas #[i web] y soluciones orientadas al análisis de grandes volúmenes de datos.
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
-      h5 a) Bases de datos relacionales
+      h5 Bases de datos relacionales
     p Organizan la información mediante tablas compuestas por filas y columnas, estableciendo relaciones entre los datos a través de claves primarias y claves foráneas. Este modelo se fundamenta en la teoría relacional propuesta por Edgar F. Codd y utiliza el lenguaje SQL para la consulta y manipulación de la información.
     p Estas bases de datos son ampliamente utilizadas en sistemas empresariales y aplicaciones que requieren consistencia, integridad y control de transacciones.
     .row.justify-content-center.align-items-center
@@ -517,7 +517,7 @@
         p En este ejemplo, los datos se organizan de manera estructurada en tablas con atributos definidos.
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
-      h5 b) Bases de datos NoSQL
+      h5 Bases de datos NoSQL
     p Surgen como alternativa a los sistemas relacionales tradicionales, especialmente para manejar grandes volúmenes de datos distribuidos, semiestructurados y desestructurados. Estas bases de datos priorizan la escalabilidad, disponibilidad y flexibilidad en el almacenamiento de información.
     p El término NoSQL significa “Not Only SQL”, indicando que estos sistemas pueden utilizar diferentes modelos de almacenamiento distintos al modelo tabular tradicional.
     p Características de las bases de datos NoSQL:
@@ -655,7 +655,7 @@
                 i.fas.fa-file-video
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
-      h5 c) Bases de datos NewSQL
+      h5 Bases de datos NewSQL
     p Aparecen como una solución que combina características de las bases de datos relacionales tradicionales con capacidades de escalabilidad propias de los sistemas NoSQL. Su objetivo consiste en mantener las propiedades ACID y el uso de SQL, mientras soportan grandes volúmenes de datos y arquitecturas distribuidas.
     p Estas tecnologías son utilizadas en aplicaciones modernas que requieren alto rendimiento transaccional y procesamiento distribuido.
     .row.justify-content-center.align-items-center
@@ -721,7 +721,7 @@
                   th NewSQL
               tbody
                 tr(style="background-color: #F3F9FF;")
-                  th Estructura de datos.
+                  td Estructura de datos.
                   td Tablas.
                   td Flexible.
                   td Tablas.

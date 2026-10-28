@@ -422,7 +422,7 @@
                 .acordion__accion.acordion__accion__btn--b.h3.mb-0
                   i.fas.fa-angle-up
                 h5 Tipos de datos
-            p.mb-0 Especifican el formato en que se almacenara cada dato dentro de una tabla, por ejemplo, numeros, texto o fechas.
+            p.mb-0 Especifican el formato en que se almacenara cada dato dentro de una tabla, por ejemplo, números, texto o fechas.
 
       .col-xl-3.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
@@ -448,7 +448,7 @@
                 .acordion__accion.acordion__accion__btn--b.h3.mb-0
                   i.fas.fa-angle-up
                 h5 Restricciones de integridad
-            p.mb-0 Reglas que garantizan que los datos almacenados sean validos y coherente.
+            p.mb-0 Reglas que garantizan que los datos almacenados sean válidos y coherente.
       
       .col-xl-3.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
@@ -461,7 +461,7 @@
                   .acordion__accion.acordion__accion__btn--b.h3.mb-0
                     i.fas.fa-angle-up
                   h5 Estructura de almacenamiento
-            p.mb-0 Organizacion fisica de los archivos o bloques donde se guardara la información.
+            p.mb-0 Organización física de los archivos o bloques donde se guardará la información.
     p El diseño físico también busca optimizar el desempeño del sistema, permitiendo que las consultas se ejecuten de forma rápida y eficiente, especialmente cuando la base de datos maneja grandes volúmenes de información.
     p A continuación, se presenta un ejemplo sencillo de cómo se define la estructura física de una tabla dentro de una base de datos:
     .row.justify-content-center.align-items-center.mb-3

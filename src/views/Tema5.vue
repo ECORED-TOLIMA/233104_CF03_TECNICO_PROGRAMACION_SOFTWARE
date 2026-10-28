@@ -12,7 +12,7 @@
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 La gestión y administración de bases de datos comprende el conjunto de actividades orientadas a garantizar el correcto funcionamiento, organización y mantenimiento de la información almacenada en un sistema. Estas tareas incluyen la creación de bases de datos, la configuración de los sistemas gestores, la supervisión del rendimiento, la seguridad de la información y el control del acceso a los datos.
-    p.mb-4 En los sistemas de información actuales, las bases de datos se gestionan mediante software especializado conocido como #[B Database Management System (DBMS)]. Estos sistemas permiten crear, almacenar, consultar y administrar grandes volúmenes de información de manera organizada y eficiente.
+    p.mb-4 En los sistemas de información actuales, las bases de datos se gestionan mediante <em>software</em> especializado conocido como #[B Database Management System (DBMS)]. Estos sistemas permiten crear, almacenar, consultar y administrar grandes volúmenes de información de manera organizada y eficiente.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .cajon.color-secundario.p-4.mb-4
@@ -21,7 +21,7 @@
     Separador
     #t_5_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 5.1 Sistemas gestores de bases de datos
-    p Un Database Management System (DBMS) es un software especializado que permite crear, almacenar, organizar, consultar y administrar la información contenida en una base de datos. Su función principal es facilitar el manejo de grandes volúmenes de datos de forma estructurada, garantizando su integridad, seguridad y disponibilidad.
+    p Un Database Management System (DBMS) es un <em>software</em> especializado que permite crear, almacenar, organizar, consultar y administrar la información contenida en una base de datos. Su función principal es facilitar el manejo de grandes volúmenes de datos de forma estructurada, garantizando su integridad, seguridad y disponibilidad.
     p Los sistemas gestores de bases de datos actúan como intermediarios entre los usuarios o aplicaciones y la base de datos, permitiendo realizar diferentes operaciones como la creación de tablas, la inserción de registros, la consulta de información y la actualización o eliminación de datos.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-3.col-8.mb-4.mb-lg-0
@@ -54,7 +54,7 @@
     Separador
     #t_5_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 5.2 Configuración básica de sistemas gestores de bases de datos
-    p La configuración inicial de un sistema gestor de bases de datos consiste en preparar el entorno necesario para crear, administrar y consultar bases de datos. Este proceso generalmente incluye la instalación del software, la creación de usuarios, la configuración de parámetros básicos y la verificación del funcionamiento del sistema.
+    p La configuración inicial de un sistema gestor de bases de datos consiste en preparar el entorno necesario para crear, administrar y consultar bases de datos. Este proceso generalmente incluye la instalación del <em>software</em>, la creación de usuarios, la configuración de parámetros básicos y la verificación del funcionamiento del sistema.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .bloque-texto-gg.bgf1.mb-4
